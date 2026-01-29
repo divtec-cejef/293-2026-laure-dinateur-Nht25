@@ -1,21 +1,44 @@
+
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* changa-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    margin:0;
     background: #fdfffc;
     color:#011627;
-    line-height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: Open Sans, sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Change One", cursive;
+    font-family: Change One, sans-serif;
     font-weight: 400;
 }
 
 h1 {
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 1em;
 }
@@ -27,6 +50,7 @@ h2 {
 
 p {
     line-height: 1.5;
+    text-align: center;
 }
 
 a {
@@ -34,9 +58,45 @@ a {
     text-decoration: none;
 }
 
+.nom {
+    font-family: Changa One, sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin: 1rem 0;
+    color: #2ec4b6;
+}
+
+.metier {
+    margin-top: -5px;
+}
 header {
     text-align: center;
-    background-color:#011627;
-    padding-top: 30px;
+    background-color: #011627;
+    padding-top: 5px;
     margin-bottom: 30px;
+}
+
+.img {
+    border-radius: 50%;
+
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.accueil {
+    display: none;
+}
+
+.qui {
+    font-family: Changa One, sans-serif;
+    color:#2ec4b6;
+    display: inline-block;
+}
+
+.contact {
+    font-family: Changa One, sans-serif;
+    color: white;
 }
