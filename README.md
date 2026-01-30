@@ -70,7 +70,8 @@ L'entête se compose d'un **logo texte** et d'un **menu de navigation**
 * La police à utiliser est `Changa One`, la taille du texte pour le nom et prénom
   est de `1.75rem` avec une hauteur de ligne de `0.8`
   et a une marge extérieure haut et bas de `1rem`.
-* Le texte "Graphiste" a une marge extérieure supérieure de `-5px` afin de la rapprocher du nom et prénom.
+* Le texte "Graphiste" a une marge extérieure supérieure de `-5px` 
+* afin de la rapprocher du nom et prénom.
 
 #### Menu de navigation
 
@@ -84,7 +85,8 @@ L'entête se compose d'un **logo texte** et d'un **menu de navigation**
   * **Accueil** `index.html` - caché en CSS `display:none;`
   * **Qui suis-je ?** `informations.html`
   * **Me contacter** `contact.html`
-* La liste `<ul>` n'a pas de marge intérieure et une mage extérieure de `10px` à gauche et à droite.
+* La liste `<ul>` n'a pas de marge intérieure et une mage extérieure de 
+* `10px` à gauche et à droite.
 * Les éléments de la liste du menu `<li>` s'affichent **sans puces, sans marge
   intérieure et en l'un à côté de l'autre (en ligne)** `display:inline-block;`
 * Pour faciliter la sélection des liens `<a>` sur mobile
@@ -105,7 +107,8 @@ Contiens la **liste des réseaux sociaux** de Laure Dinateur et le **copyright**
 * Le pied de page `<footer>` a une marge intérieur haut de `50px`
 * Les contenus du pied de page sont centrés horizontalement.
 * La liste des réseaux sociaux est un élément de navigation `<nav>`, tout
-  comme le menu de navigation de l'entête, et à le même style (pas de puces, pas de marges).
+  comme le menu de navigation de l'entête, et à 
+* le même style (pas de puces, pas de marges).
 * Les éléments de la liste s'affichent en ligne `display:inline-block;`.
 * Les images ont une largeur de `50px` sont espacées de `30px`.
 * Un filtre gris CSS est appliqué aux images du pied de page `filter: grayscale
