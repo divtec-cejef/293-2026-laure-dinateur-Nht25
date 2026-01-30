@@ -57,7 +57,8 @@ a {
     color: #e71d36;
     text-decoration: none;
 }
-
+/* Nom et prenom
+===========================================*/
 .nom {
     font-family: Changa One, sans-serif;
     font-size: 1.75rem;
@@ -65,10 +66,12 @@ a {
     margin: 1rem 0;
     color: #2ec4b6;
 }
-
+/* Graphiste
+===============================================*/
 .metier {
     margin-top: -5px;
 }
+
 header {
     text-align: center;
     background-color: #011627;
@@ -76,27 +79,100 @@ header {
     margin-bottom: 30px;
 }
 
-.img {
-    border-radius: 50%;
-
+.logo {
+    font-family: Changa One, sans-serif;
 }
 
-footer {
-    padding-top: 50px;
-    text-align: center;
+.img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+
 }
 
 .accueil {
     display: none;
 }
 
+.contact {
+    font-family:One sans one, sans-serif;
+    color: white;
+}
+
 .qui {
-    font-family: Changa One, sans-serif;
-    color:#2ec4b6;
+    color: #2ec4b6;
+    font-family: Open Sans one, sans-serif;
+}
+
+/* NAV */
+nav {
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+/* UL */
+nav ul {
+    padding: 0;
+    margin: 0 10px;
+}
+
+/* LI */
+nav li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: inline-block;
 }
 
-.contact {
-    font-family: Changa One, sans-serif;
-    color: white;
+/* A */
+nav a {
+    font-weight: 800;
+    margin-right: 30px;
+    padding: 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Accueil gizle */
+nav a[href="index.html"] {
+    display: none;
+}
+
+main {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a:hover {
+    color: #2ec4b6;
+}
+/* footer
+==================================*/
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    width: 50px;
+    margin: 0 30px;
+    filter: invert(1);
+}
+
+footer img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
 }
