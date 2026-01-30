@@ -33,14 +33,14 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Change One, sans-serif;
+    font-family: 'Change One', sans-serif;
     font-weight: 400;
 }
 
 h1 {
-    text-align: center;
     font-size: 2rem;
     margin-bottom: 1em;
+    font-family: 'Changa One', sans-serif;
 }
 
 h2 {
@@ -50,7 +50,7 @@ h2 {
 
 p {
     line-height: 1.5;
-    text-align: center;
+
 }
 
 a {
@@ -60,7 +60,7 @@ a {
 /* Nom et prenom
 ===========================================*/
 .nom {
-    font-family: Changa One, sans-serif;
+    font-family: 'Changa One', sans-serif;
     font-size: 1.75rem;
     line-height: 0.8;
     margin: 1rem 0;
@@ -80,7 +80,7 @@ header {
 }
 
 .logo {
-    font-family: Changa One, sans-serif;
+    font-family: 'Changa One', sans-serif;
 }
 
 .img {
@@ -175,4 +175,7 @@ footer img {
 footer img:hover {
     filter: grayscale(0);
     transition: filter 500ms linear;
+}
+.lauredi strong {
+    color: #e71d36;
 }
