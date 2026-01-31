@@ -72,22 +72,22 @@ a {
     margin-top: -5px;
 }
 
-header {
+.logo {
+    text-align: center;
+    display: block;
+}
 
+header {
     background-color: #011627;
     padding-top: 5px;
     margin-bottom: 30px;
-}
-
-.logo {
-
-    font-family: 'Changa One', sans-serif;
 }
 
 .img {
     border-radius: 50%;
     width: 200px;
     height: auto;
+    text-align: center;
 
 }
 
@@ -143,6 +143,7 @@ nav a[href="index.html"] {
 main {
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 50px;
 }
 
 a:hover {
@@ -170,12 +171,12 @@ footer img {
     width: 50px;
     margin: 0 30px;
     filter: grayscale(1);
-}
-
-footer img:hover {
-    filter: grayscale(0);
     transition: filter 500ms linear;
 }
+footer img:hover {
+    filter: grayscale(0);
+}
+
 .lauredi strong {
     color: #e71d36;
 }
