@@ -46,7 +46,7 @@ Aspect général :
 * Tailles des titres de niveau 1 `2rem`
   * Marge extérieure en bas de `1em`
 * Tailles des titres de niveau 2 `1.5rem`
-  * Marge extérieure en bas de `.75em`
+  * Marge extérieure en bas de `1.75em`
 * Hauteur de ligne des paragraphes `1.5`
 * Les liens du site sont rouges `#e71d36` et ne sont **pas soulignés**
 
