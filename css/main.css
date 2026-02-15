@@ -22,41 +22,48 @@
 }
 
 body {
-    margin:0;
     background: #fdfffc;
     color:#011627;
     font-size: 100%;
     line-height: 1.4;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
 }
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Change One', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Changa One', sans-serif;
     font-weight: 400;
 }
 
-h1 {
-    font-size: 2rem;
-    font-family: 'Changa One', sans-serif;
-
+.page-infos h1 {
+    text-align: center;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.75em;
+.profil {
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
 }
 
 p {
     line-height: 1.5;
-
 }
+
 
 a {
     color: #e71d36;
     text-decoration: none;
 }
+
+header {
+    text-align: center;
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
 /* Nom et prenom
 ===========================================*/
 .nom {
@@ -71,16 +78,7 @@ a {
 ===============================================*/
 .metier {
     margin-top: -5px;
-}
-
-.logo {
-    display: block;
-}
-
-header {
-    background-color: #011627;
-    padding-top: 5px;
-    margin-bottom: 30px;
+    font-family: 'Changa One', sans-serif;
 }
 
 .img {
@@ -90,93 +88,106 @@ header {
 
 }
 
-.accueil {
-    display: none;
-}
-
-.contact {
-    font-family:One sans one, sans-serif;
-    color: white;
-}
-
-.qui {
-    color: #2ec4b6;
-    font-family: Open Sans one, sans-serif;
-}
-
-/* NAV */
-nav {
-    padding-top: 10px;
+header nav  {
+    padding: 10px 0;
     margin-top: 20px;
 }
 
-/* UL */
-nav ul {
+header nav a[href="index.html"] {
+    display: none;
+}
+
+header nav ul {
     padding: 0;
     margin: 0 10px;
 }
 
-/* LI */
-nav li {
-    list-style: none;
+header nav ul li {
+    display: inline-block;
     padding: 0;
-    margin: 0;
-    display: inline-block;
+    list-style: none;
 }
 
-/* A */
-nav a {
-    font-weight: 800;
-    margin-right: 30px;
+header nav ul li a {
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+    margin: 0 30px;
     padding: 15px 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
+    color: #fdfffc;
 }
 
-/* Accueil gizle */
-nav a[href="index.html"] {
-    display: none;
+header nav ul li a:hover {
+    color: #2ec4b6;
 }
 
 main {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 50px;
+    margin: 0 5%;
 }
 
-.lauredi strong {
-    color: #e71d36;
-}
-
-a:hover {
-    color: #2ec4b6;
-}
 /* footer
 ==================================*/
 
 footer {
-    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-footer ul {
+footer nav li {
     list-style: none;
     padding: 0;
-    margin: 0;
-}
-
-footer li {
     display: inline-block;
 }
 
-footer img {
+footer nav li a img {
     width: 50px;
     margin: 0 30px;
     filter: grayscale(1);
+}
+
+footer nav li a img:hover {
+    filter: grayscale(0);
     transition: filter 500ms linear;
 }
-footer img:hover {
-    filter: grayscale(0);
+
+footer nav ul {
+    padding-inline-start: 0;
+}
+
+.active {
+    color: #2ec4b6;
 }
 
 
+/* Me contacter
+====================================================================*/
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10px;}
+
+.contact-info li a {
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 2px;
+    padding-left: 30px;
+}
+
+.contact-info li a[href^="mailto:"] {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li a[href^="tel:"] {
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li a[href^="https://twitter.com/:"] {
+    background-image: url('../img/twitter.png');
+}
+
+.contact-info li a[href^="https://www.facebook.com/:"] {
+    background-image: url('../img/facebook.png');
+}
+
+.contact-info li {
+    margin-bottom: .5em;
+}
